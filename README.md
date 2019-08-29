@@ -1,20 +1,16 @@
-![Virus-MNIST](https://github.com/ayakimovich/virus-mnist/blob/master/img/virsu-mnist-logo.png "Virus-MNIST")
+# ZedMate Readme
 
-# Virus-MNIST Readme
+ZedMate is a suite of plugins aimed multi-channel intensity quantification.
 
-This repository hosts open biological dataset called Virus-MNIST. The dataset was created from superresolved Vaccinia Virus (VACV) particles micrographs obtained at Mercer Group of MRC Laboratory of Molecular Cell Biology (University College London, in 2018). VACV particles were detected using in-house methodology (manuscript in preparation, stay tuned). Upon detection particles were embedded in a way to resemble the famous [MNIST]( http://yann.lecun.com/exdb/mnist/) dataset (**fig. 1**).
+The main plugin called ZedMate is aimed at particle detection and intensity quantification in 3D multi-channel images. The main detector is based on the TrackMate Laplacian of Gaussian engine. Most contemporary microscopy modalities are anisotropic in their XYZ-resolution. Specifically Z-resolution is inferior to XY. That's why it is convenient to think of particle detection in 3D as a 2D particle detection + tracking problem. ZedMate manuscript is currently in preparation
 
-![Figure 1](https://github.com/ayakimovich/virus-mnist/blob/master/img/embedding.png "Figure 1")
+# ZedMate Plugin on ImageJ.net
+Further description of the plugin is also available on [ImageJ Wiki](https://imagej.net/ZedMate)
 
-The Virus-MNIST dataset contains embedded images and labels split into training (117451 points) and validation (13051 points) corresponding to the individual virus particles.
-
-![Figure 2](https://github.com/ayakimovich/virus-mnist/blob/master/img/class0.png "Figure 2")
-
-The particles are labeled to mark whether they were inside (class 0, **fig. 2**) or outside (class 1, **fig. 3**) of the cell. This labeling is subject to specialist annotation.
-
-![Figure 3](https://github.com/ayakimovich/virus-mnist/blob/master/img/class1.png "Figure 3")
+# Datasets produced with ZedMate Plugin
+We have recently produced an example of the datasets produced using the mimicry embedding feature of ZedMate. Here a single virus particle dataset is embedded to resemble MNIST hand-written digits dataset: [Virus-MNIST](https://github.com/ayakimovich/virus-mnist)
 
 For further questions contact:
 [Artur Yakimovich, PhD](mailto:artur.yakimovich@gmail.com)
 
-*Latest update: 11-07-2019*
+*Latest update: 22-08-2019*
