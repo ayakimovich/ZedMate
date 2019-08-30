@@ -1,4 +1,4 @@
-#Coode bases of Mimicry embedded data training
+# Coode bases of Mimicry embedded data training
 
 Here various neural network architectures were trained using ZedMate mimicry embedded data. Different architectures resulted in deferent classification performance.
 Data preparation, mimicry ebedding pipelines are available as KNIME workflow pipelines unde ../knime-workflows
