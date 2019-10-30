@@ -1,3 +1,8 @@
+# How to cite us
+Mimicry embedding for advanced neural network training of 3D biomedical micrographs
+Artur Yakimovich, Moona Huttunen, Jerzy Samolej, Barbara Clough, Nagisa Yoshida, Serge Mostowy, Eva Frickel, Jason Mercer
+bioRxiv 820076; doi: https://doi.org/10.1101/820076
+
 # ZedMate Readme
 
 ZedMate is a suite of plugins aimed multi-channel intensity quantification.
